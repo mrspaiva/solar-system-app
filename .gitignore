@@ -41,6 +41,7 @@ buck-out/
 \.buckd/
 *.keystore
 !debug.keystore
+.buckconfig
 
 # fastlane
 #
@@ -59,3 +60,6 @@ buck-out/
 # Ruby / CocoaPods
 /ios/Pods/
 /vendor/bundle/
+.ruby-version
+Gemfile
+Gemfile.lock
