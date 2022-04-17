@@ -1,22 +1,24 @@
 import React from 'react';
-import {View, Text, TouchableOpacity} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 import {StackNavigationProp} from '@react-navigation/stack';
 import {RootStackParamList} from '../../types/RootStackParams';
 
-// import { Container } from './styles';
+import {Background, Container, Subtitle, Title, TitleSection} from './styles';
 
 type welcomeScreenProp = StackNavigationProp<RootStackParamList, 'Welcome'>;
 
 const Welcome = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const navigation = useNavigation<welcomeScreenProp>();
 
   return (
-    <View style={{justifyContent: 'center', alignItems: 'center', flex: 1}}>
-      <TouchableOpacity onPress={() => navigation.navigate('Homepage')}>
-        <Text>Solar System</Text>
-      </TouchableOpacity>
-    </View>
+    <Container>
+      <Background />
+      <TitleSection>
+        <Subtitle>Aperte o cinto</Subtitle>
+        <Title>Comece sua jornada pelo sistema solar.</Title>
+      </TitleSection>
+    </Container>
   );
 };
 
