@@ -11,7 +11,7 @@ export const Gradient = styled(LinearGradient).attrs({
 `;
 
 export const Container = styled.TouchableOpacity.attrs({
-  activeOpacity: 0.8,
+  activeOpacity: 0.6,
 })`
   height: 51px;
   width: 206px;

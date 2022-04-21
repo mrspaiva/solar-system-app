@@ -3,7 +3,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {RootStackParamList} from '../types/RootStackParams';
 
-import Welcome from '../pages/Welcome';
+import Welcome from '../pages/Welcome/Welcome';
 import BottomTabsRoute from './bottomTabsRoute';
 import {StatusBar} from 'react-native';
 
