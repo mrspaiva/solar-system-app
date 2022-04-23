@@ -31,7 +31,9 @@ const Welcome = () => {
 
         <NavigationSection>
           <NavigationText>Pronto para a decolagem?</NavigationText>
-          <NavigationButton onPress={() => navigation.navigate('Homepage')} />
+          <NavigationButton
+            onPress={() => navigation.navigate('BottomTabsRoute')}
+          />
         </NavigationSection>
       </ContentWrapper>
     </Container>

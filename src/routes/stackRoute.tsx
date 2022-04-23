@@ -15,7 +15,7 @@ export function StackRoute() {
       <StatusBar barStyle={'light-content'} />
       <Stack.Navigator screenOptions={{headerShown: false}}>
         <Stack.Screen name="Welcome" component={Welcome} />
-        <Stack.Screen name="Homepage" component={BottomTabsRoute} />
+        <Stack.Screen name="BottomTabsRoute" component={BottomTabsRoute} />
       </Stack.Navigator>
     </NavigationContainer>
   );
