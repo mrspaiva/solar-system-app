@@ -2,7 +2,7 @@ import React from 'react';
 import {NavigationButtonProps} from '../../components/navigation-button/Navigation-button.props';
 import {
   ButtonTitle,
-  Container,
+  ButtonContainer,
   ContentSection,
   Gradient,
   Icon,
@@ -10,12 +10,12 @@ import {
 const NavigationButton: React.FC<NavigationButtonProps> = ({onPress}) => {
   return (
     <Gradient>
-      <Container onPress={onPress}>
+      <ButtonContainer onPress={onPress}>
         <ContentSection>
           <ButtonTitle>Começar agora</ButtonTitle>
           <Icon />
         </ContentSection>
-      </Container>
+      </ButtonContainer>
     </Gradient>
   );
 };

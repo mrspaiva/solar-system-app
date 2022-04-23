@@ -10,7 +10,7 @@ export const Gradient = styled(LinearGradient).attrs({
   border-radius: 8px;
 `;
 
-export const Container = styled.TouchableOpacity.attrs({
+export const ButtonContainer = styled.TouchableOpacity.attrs({
   activeOpacity: 0.6,
 })`
   height: 51px;
