@@ -1,3 +1,4 @@
 export type BottomTabParamList = {
-  Homepage: undefined;
+  Início: undefined;
+  Buscar: undefined;
 };
